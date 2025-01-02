@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM  mcr.microsoft.com/dotnet/aspnet:8.0-alpine AS BUILD
+FROM --platform=$BUILDPLATFORM  mcr.microsoft.com/dotnet/aspnet:8.0 AS BUILD
 
 MAINTAINER Patryk Olszak, <patryk1711711@gmail.com>
 
