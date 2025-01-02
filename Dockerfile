@@ -2,7 +2,7 @@ FROM --platform=$BUILDPLATFORM  mcr.microsoft.com/dotnet/aspnet:8.0-alpine AS BU
 
 MAINTAINER Patryk Olszak, <patryk1711711@gmail.com>
 
-RUN apt install curl ca-certificates openssl git tar bash sqlite fontconfig \
+RUN sudo apt-get install curl ca-certificates openssl git tar bash sqlite fontconfig \
     && adduser --disabled-password --home /home/container container
 
 USER container
