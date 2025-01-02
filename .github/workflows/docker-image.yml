@@ -16,4 +16,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag :$(date +%s)
+      run: docker build . --file Dockerfile --tag dotnet:8.0-alpine:$(date +%s)
