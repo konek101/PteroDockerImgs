@@ -9,7 +9,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: pterodotnet-alpine
+  IMAGE_NAME: konek101/pterodotnet8.0-alpine
 
 jobs:
 
